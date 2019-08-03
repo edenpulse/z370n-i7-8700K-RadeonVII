@@ -476,9 +476,9 @@
 		<key>ProductName</key>
 		<string>iMac18,3</string>
 		<key>SerialNumber</key>
-		<string>YOUR-SERIAL</string>
+		<string>XXX-YOUR-OWN</string>
 		<key>SmUUID</key>
-		<string>YOUR-OWN-SMUUID</string>
+		<string>XXX-YOUR OWN-XXX</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
