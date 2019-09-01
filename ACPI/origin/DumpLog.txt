@@ -1,0 +1,157 @@
+11:390  2:374  Found BIOS RSDP at F05B0
+11:390  0:000  Printing ACPI tables from RSDP F05B0 ...
+11:390  0:000   F05B0: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+11:390  0:000    (Rsdt: CE414028)
+11:390  0:000    CE414028: 'RSDT', 'A M I', Rev: 1, Len: 132
+11:390  0:000    Tables in Rsdt: 24
+11:390  0:000    0. CE4141A8: 'FACP', 'A M I', Rev: 2, Len: 132
+11:390  0:000        (Dsdt: CE414230, Facs: CE497EC0)
+11:390  0:000        CE414230: 'DSDT', 'A M I', Rev: 2, Len: 161478
+11:392  0:001        CE497EC0: 'FACS', Ver: 0, Len: 64
+11:392  0:000    1. CE43BA10: 'APIC', 'A M I', Rev: 3, Len: 244
+11:392  0:000    2. CE43BB08: 'FPDT', 'A M I', Rev: 1, Len: 68
+11:392  0:000    3. CE43BB50: 'FIDT', 'A M I', Rev: 1, Len: 156
+11:392  0:000    4. CE43BBF0: 'MCFG', 'A M I', Rev: 1, Len: 60
+11:392  0:000    5. CE43BC30: 'SSDT', 'A M I', Rev: 1, Len: 523
+11:392  0:000    6. CE43BE40: 'SSDT', 'A M I', Rev: 1, Len: 31999
+11:392  0:000    7. CE443B40: 'SSDT', 'A M I', Rev: 2, Len: 12645
+11:392  0:000    8. CE446CA8: 'SSDT', 'A M I', Rev: 2, Len: 10051
+11:392  0:000    9. CE4493F0: 'HPET', 'A M I', Rev: 1, Len: 56
+11:392  0:000    10. CE449428: 'SSDT', 'A M I', Rev: 2, Len: 4522
+11:392  0:000    11. CE44A5D8: 'SSDT', 'A M I', Rev: 2, Len: 10967
+11:392  0:000    12. CE44D0B0: 'UEFI', 'A M I', Rev: 1, Len: 72
+11:392  0:000    13. CE44D0F8: 'SSDT', 'A M I', Rev: 2, Len: 6062
+11:392  0:000    14. CE44E8A8: 'LPIT', 'A M I', Rev: 1, Len: 148
+11:392  0:000    15. CE44E940: 'SSDT', 'A M I', Rev: 2, Len: 321
+11:392  0:000    16. CE44EA88: 'SSDT', 'A M I', Rev: 2, Len: 671
+11:392  0:000    17. CE44ED28: 'SSDT', 'A M I', Rev: 2, Len: 12290
+11:392  0:000    18. CE451D30: 'SSDT', 'A M I', Rev: 2, Len: 1303
+11:392  0:000    19. CE452248: 'SSDT', 'A M I', Rev: 2, Len: 745
+11:392  0:000    20. CE452538: 'DBGP', 'A M I', Rev: 1, Len: 52
+11:392  0:000    21. CE452570: 'DBG2', 'A M I', Rev: 0, Len: 84
+11:392  0:000    22. CE4525C8: 'VFCT', 'A M I', Rev: 1, Len: 59012
+11:392  0:000    23. CE460C50: 'WSMT', 'A M I', Rev: 1, Len: 40
+11:392  0:000  Found UEFI Acpi 2.0 RSDP at CE414000
+11:392  0:000  Saving ACPI tables from RSDP CE414000 to EFI\CLOVER\ACPI\origin ...
+11:392  0:000   CE414000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:392  0:000    (Xsdt: CE4140B0, Rsdt: CE414028)
+11:392  0:000    CE4140B0: 'XSDT', 'A M I', Rev: 1, Len: 228
+11:392  0:000    CE414028: 'RSDT', 'A M I', Rev: 1, Len: 132
+11:392  0:000    Tables in Xsdt: 24
+11:392  0:000    0. CE43B8F8: 'FACP', 'A M I', Rev: 6, Len: 276
+11:392  0:000        (Dsdt: CE414230, Facs: CE497F00, XDsdt: CE414230, XFacs: 0)
+11:392  0:000        CE414230: 'DSDT', 'A M I', Rev: 2, Len: 161478
+11:394  0:001        CE497F00: 'FACS', Ver: 2, Len: 64
+11:394  0:000    1. CE43BA10: 'APIC', 'A M I', Rev: 3, Len: 244
+11:394  0:000    2. CE43BB08: 'FPDT', 'A M I', Rev: 1, Len: 68
+11:394  0:000    3. CE43BB50: 'FIDT', 'A M I', Rev: 1, Len: 156
+11:394  0:000    4. CE43BBF0: 'MCFG', 'A M I', Rev: 1, Len: 60
+11:394  0:000    5. CE43BC30: 'SSDT', 'A M I', Rev: 1, Len: 523
+11:394  0:000    6. CE43BE40: 'SSDT', 'A M I', Rev: 1, Len: 31999
+11:394  0:000    7. CE443B40: 'SSDT', 'A M I', Rev: 2, Len: 12645
+11:394  0:000    8. CE446CA8: 'SSDT', 'A M I', Rev: 2, Len: 10051
+11:394  0:000    9. CE4493F0: 'HPET', 'A M I', Rev: 1, Len: 56
+11:394  0:000    10. CE449428: 'SSDT', 'A M I', Rev: 2, Len: 4522
+11:394  0:000    11. CE44A5D8: 'SSDT', 'A M I', Rev: 2, Len: 10967
+11:394  0:000    12. CE44D0B0: 'UEFI', 'A M I', Rev: 1, Len: 72
+11:394  0:000    13. CE44D0F8: 'SSDT', 'A M I', Rev: 2, Len: 6062
+11:394  0:000    14. CE44E8A8: 'LPIT', 'A M I', Rev: 1, Len: 148
+11:394  0:000    15. CE44E940: 'SSDT', 'A M I', Rev: 2, Len: 321
+11:394  0:000    16. CE44EA88: 'SSDT', 'A M I', Rev: 2, Len: 671
+11:394  0:000    17. CE44ED28: 'SSDT', 'A M I', Rev: 2, Len: 12290
+11:394  0:000    18. CE451D30: 'SSDT', 'A M I', Rev: 2, Len: 1303
+11:394  0:000    19. CE452248: 'SSDT', 'A M I', Rev: 2, Len: 745
+11:394  0:000    20. CE452538: 'DBGP', 'A M I', Rev: 1, Len: 52
+11:394  0:000    21. CE452570: 'DBG2', 'A M I', Rev: 0, Len: 84
+11:394  0:000    22. CE4525C8: 'VFCT', 'A M I', Rev: 1, Len: 59012
+11:394  0:000    23. CE460C50: 'WSMT', 'A M I', Rev: 1, Len: 40
+11:394  0:000    Tables in Rsdt: 24
+11:394  0:000    0. CE4141A8: 'FACP', 'A M I', Rev: 2, Len: 132
+11:394  0:000        (Dsdt: CE414230, Facs: CE497EC0)
+11:394  0:000        CE414230: 'DSDT', 'A M I', Rev: 2, Len: 161478
+11:396  0:001        CE497EC0: 'FACS', Ver: 0, Len: 64
+11:396  0:000    1. CE43BA10: 'APIC', 'A M I', Rev: 3, Len: 244
+11:396  0:000    2. CE43BB08: 'FPDT', 'A M I', Rev: 1, Len: 68
+11:396  0:000    3. CE43BB50: 'FIDT', 'A M I', Rev: 1, Len: 156
+11:396  0:000    4. CE43BBF0: 'MCFG', 'A M I', Rev: 1, Len: 60
+11:396  0:000    5. CE43BC30: 'SSDT', 'A M I', Rev: 1, Len: 523
+11:396  0:000    6. CE43BE40: 'SSDT', 'A M I', Rev: 1, Len: 31999
+11:396  0:000    7. CE443B40: 'SSDT', 'A M I', Rev: 2, Len: 12645
+11:396  0:000    8. CE446CA8: 'SSDT', 'A M I', Rev: 2, Len: 10051
+11:396  0:000    9. CE4493F0: 'HPET', 'A M I', Rev: 1, Len: 56
+11:396  0:000    10. CE449428: 'SSDT', 'A M I', Rev: 2, Len: 4522
+11:396  0:000    11. CE44A5D8: 'SSDT', 'A M I', Rev: 2, Len: 10967
+11:396  0:000    12. CE44D0B0: 'UEFI', 'A M I', Rev: 1, Len: 72
+11:396  0:000    13. CE44D0F8: 'SSDT', 'A M I', Rev: 2, Len: 6062
+11:396  0:000    14. CE44E8A8: 'LPIT', 'A M I', Rev: 1, Len: 148
+11:396  0:000    15. CE44E940: 'SSDT', 'A M I', Rev: 2, Len: 321
+11:396  0:000    16. CE44EA88: 'SSDT', 'A M I', Rev: 2, Len: 671
+11:396  0:000    17. CE44ED28: 'SSDT', 'A M I', Rev: 2, Len: 12290
+11:396  0:000    18. CE451D30: 'SSDT', 'A M I', Rev: 2, Len: 1303
+11:396  0:000    19. CE452248: 'SSDT', 'A M I', Rev: 2, Len: 745
+11:396  0:000    20. CE452538: 'DBGP', 'A M I', Rev: 1, Len: 52
+11:396  0:000    21. CE452570: 'DBG2', 'A M I', Rev: 0, Len: 84
+11:396  0:000    22. CE4525C8: 'VFCT', 'A M I', Rev: 1, Len: 59012
+11:396  0:000    23. CE460C50: 'WSMT', 'A M I', Rev: 1, Len: 40
+11:396  0:000  Found UEFI Acpi 1.0 RSDP at CE414000
+11:396  0:000  Printing ACPI tables from RSDP CE414000 ...
+11:396  0:000   CE414000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+11:396  0:000    (Xsdt: CE4140B0, Rsdt: CE414028)
+11:396  0:000    CE4140B0: 'XSDT', 'A M I', Rev: 1, Len: 228
+11:396  0:000    CE414028: 'RSDT', 'A M I', Rev: 1, Len: 132
+11:396  0:000    Tables in Xsdt: 24
+11:396  0:000    0. CE43B8F8: 'FACP', 'A M I', Rev: 6, Len: 276
+11:396  0:000        (Dsdt: CE414230, Facs: CE497F00, XDsdt: CE414230, XFacs: 0)
+11:396  0:000        CE414230: 'DSDT', 'A M I', Rev: 2, Len: 161478
+11:398  0:001        CE497F00: 'FACS', Ver: 2, Len: 64
+11:398  0:000    1. CE43BA10: 'APIC', 'A M I', Rev: 3, Len: 244
+11:398  0:000    2. CE43BB08: 'FPDT', 'A M I', Rev: 1, Len: 68
+11:398  0:000    3. CE43BB50: 'FIDT', 'A M I', Rev: 1, Len: 156
+11:398  0:000    4. CE43BBF0: 'MCFG', 'A M I', Rev: 1, Len: 60
+11:398  0:000    5. CE43BC30: 'SSDT', 'A M I', Rev: 1, Len: 523
+11:398  0:000    6. CE43BE40: 'SSDT', 'A M I', Rev: 1, Len: 31999
+11:398  0:000    7. CE443B40: 'SSDT', 'A M I', Rev: 2, Len: 12645
+11:398  0:000    8. CE446CA8: 'SSDT', 'A M I', Rev: 2, Len: 10051
+11:398  0:000    9. CE4493F0: 'HPET', 'A M I', Rev: 1, Len: 56
+11:398  0:000    10. CE449428: 'SSDT', 'A M I', Rev: 2, Len: 4522
+11:398  0:000    11. CE44A5D8: 'SSDT', 'A M I', Rev: 2, Len: 10967
+11:398  0:000    12. CE44D0B0: 'UEFI', 'A M I', Rev: 1, Len: 72
+11:398  0:000    13. CE44D0F8: 'SSDT', 'A M I', Rev: 2, Len: 6062
+11:398  0:000    14. CE44E8A8: 'LPIT', 'A M I', Rev: 1, Len: 148
+11:398  0:000    15. CE44E940: 'SSDT', 'A M I', Rev: 2, Len: 321
+11:398  0:000    16. CE44EA88: 'SSDT', 'A M I', Rev: 2, Len: 671
+11:398  0:000    17. CE44ED28: 'SSDT', 'A M I', Rev: 2, Len: 12290
+11:398  0:000    18. CE451D30: 'SSDT', 'A M I', Rev: 2, Len: 1303
+11:398  0:000    19. CE452248: 'SSDT', 'A M I', Rev: 2, Len: 745
+11:398  0:000    20. CE452538: 'DBGP', 'A M I', Rev: 1, Len: 52
+11:398  0:000    21. CE452570: 'DBG2', 'A M I', Rev: 0, Len: 84
+11:398  0:000    22. CE4525C8: 'VFCT', 'A M I', Rev: 1, Len: 59012
+11:398  0:000    23. CE460C50: 'WSMT', 'A M I', Rev: 1, Len: 40
+11:398  0:000    Tables in Rsdt: 24
+11:398  0:000    0. CE4141A8: 'FACP', 'A M I', Rev: 2, Len: 132
+11:398  0:000        (Dsdt: CE414230, Facs: CE497EC0)
+11:398  0:000        CE414230: 'DSDT', 'A M I', Rev: 2, Len: 161478
+11:400  0:001        CE497EC0: 'FACS', Ver: 0, Len: 64
+11:400  0:000    1. CE43BA10: 'APIC', 'A M I', Rev: 3, Len: 244
+11:400  0:000    2. CE43BB08: 'FPDT', 'A M I', Rev: 1, Len: 68
+11:400  0:000    3. CE43BB50: 'FIDT', 'A M I', Rev: 1, Len: 156
+11:400  0:000    4. CE43BBF0: 'MCFG', 'A M I', Rev: 1, Len: 60
+11:400  0:000    5. CE43BC30: 'SSDT', 'A M I', Rev: 1, Len: 523
+11:400  0:000    6. CE43BE40: 'SSDT', 'A M I', Rev: 1, Len: 31999
+11:400  0:000    7. CE443B40: 'SSDT', 'A M I', Rev: 2, Len: 12645
+11:400  0:000    8. CE446CA8: 'SSDT', 'A M I', Rev: 2, Len: 10051
+11:400  0:000    9. CE4493F0: 'HPET', 'A M I', Rev: 1, Len: 56
+11:400  0:000    10. CE449428: 'SSDT', 'A M I', Rev: 2, Len: 4522
+11:400  0:000    11. CE44A5D8: 'SSDT', 'A M I', Rev: 2, Len: 10967
+11:400  0:000    12. CE44D0B0: 'UEFI', 'A M I', Rev: 1, Len: 72
+11:400  0:000    13. CE44D0F8: 'SSDT', 'A M I', Rev: 2, Len: 6062
+11:400  0:000    14. CE44E8A8: 'LPIT', 'A M I', Rev: 1, Len: 148
+11:400  0:000    15. CE44E940: 'SSDT', 'A M I', Rev: 2, Len: 321
+11:400  0:000    16. CE44EA88: 'SSDT', 'A M I', Rev: 2, Len: 671
+11:400  0:000    17. CE44ED28: 'SSDT', 'A M I', Rev: 2, Len: 12290
+11:400  0:000    18. CE451D30: 'SSDT', 'A M I', Rev: 2, Len: 1303
+11:400  0:000    19. CE452248: 'SSDT', 'A M I', Rev: 2, Len: 745
+11:400  0:000    20. CE452538: 'DBGP', 'A M I', Rev: 1, Len: 52
+11:400  0:000    21. CE452570: 'DBG2', 'A M I', Rev: 0, Len: 84
+11:400  0:000    22. CE4525C8: 'VFCT', 'A M I', Rev: 1, Len: 59012
+11:400  0:000    23. CE460C50: 'WSMT', 'A M I', Rev: 1, Len: 40
