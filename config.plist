@@ -229,6 +229,8 @@
 		</dict>
 		<key>ScreenResolution</key>
 		<string>3440x1440</string>
+		<key>Theme</key>
+		<string>random</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
