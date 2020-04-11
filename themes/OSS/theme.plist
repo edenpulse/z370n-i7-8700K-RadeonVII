@@ -23,10 +23,6 @@
 		<dict>
 			<key>Inline</key>
 			<false/>
-			<key>OffsetX</key>
-			<integer>0</integer>
-			<key>OffsetY</key>
-			<integer>0</integer>
 			<key>Scale</key>
 			<integer>16</integer>
 			<key>Show</key>
@@ -36,19 +32,29 @@
 		</dict>
 		<key>Banner</key>
 		<string>logo-trans.png</string>
+		<key>BootCampStyle</key>
+		<true/>
 		<key>Components</key>
 		<dict>
+			<key>Banner</key>
+			<false/>
+			<key>Functions</key>
+			<false/>
+			<key>Help</key>
+			<false/>
+			<key>Label</key>
+			<true/>
 			<key>MenuTitle</key>
-			<false/>
+			<true/>
 			<key>MenuTitleImage</key>
-			<false/>
+			<true/>
 			<key>Revision</key>
 			<false/>
 		</dict>
 		<key>Font</key>
 		<dict>
 			<key>CharWidth</key>
-			<integer>23</integer>
+			<integer>12</integer>
 			<key>Path</key>
 			<string>font.png</string>
 			<key>Proportional</key>
@@ -59,17 +65,11 @@
 		<key>Layout</key>
 		<dict>
 			<key>BannerOffset</key>
-			<integer>-100</integer>
-			<key>ButtonOffset</key>
-			<integer>1512</integer>
+			<integer>-128</integer>
 			<key>SelectionBigWidth</key>
-			<integer>478</integer>
-			<key>TextOffset</key>
-			<integer>-1256</integer>
-			<key>TileXSpace</key>
-			<integer>0</integer>
-			<key>TileYSpace</key>
-			<integer>24</integer>
+			<integer>288</integer>
+			<key>Vertical</key>
+			<false/>
 		</dict>
 		<key>Origination</key>
 		<dict>
@@ -81,16 +81,20 @@
 		<key>Selection</key>
 		<dict>
 			<key>Big</key>
-			<string>Selection_big.png</string>
+			<string>Selection_288.png</string>
+			<key>ChangeNonSelectedGrey</key>
+			<false/>
 			<key>Color</key>
 			<string>0xF3F3F380</string>
+			<key>OnTop</key>
+			<false/>
 			<key>Small</key>
-			<string>selection.small.png</string>
+			<string>Selection_64.png</string>
 		</dict>
 	</dict>
 	<key>Version</key>
-	<string>2.0.1</string>
+	<string>2.1.0</string>
 	<key>Year</key>
-	<string>2015</string>
+	<string>2019</string>
 </dict>
 </plist>
